@@ -3,10 +3,13 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Cpp01/Cpp01.vcxproj" />
-  <Project Path="Cpp02/Cpp02.vcxproj" />
-  <Project Path="Cpp03/Cpp03.vcxproj" />
-  <Project Path="Cpp04/Cpp04.vcxproj" />
-  <Project Path="Cpp05/Cpp05.vcxproj" />
-  <Project Path="Cpp06/Cpp06.vcxproj" />
+  <Project Path="Cpp01/Cpp01.vcxproj" Id="a28198a6-12ba-4847-b5a8-c907a21f5d4a" />
+  <Project Path="Cpp02/Cpp02.vcxproj" Id="98b820a7-37c3-4d57-a3c1-22f95269143b" />
+  <Project Path="Cpp03/Cpp03.vcxproj" Id="f7e21c64-c97f-48e0-a758-632b4a996fda" />
+  <Project Path="Cpp04/Cpp04.vcxproj" Id="a5c1f42a-1b59-4905-b56c-2968cded4930" />
+  <Project Path="Cpp05/Cpp05.vcxproj" Id="041f5a99-05a2-4189-a57c-bf1b0bbdbccf" />
+  <Project Path="Cpp06/Cpp06.vcxproj" Id="54b75878-5a61-40e5-8de3-18915c235f7f" />
+  <Project Path="Cpp07/Cpp07.vcxproj" Id="efec15ae-f294-4391-abcb-a470a418e2ef" />
+  <Project Path="Cpp08/Cpp08.vcxproj" Id="a7765925-5f93-46b4-952a-35e3e84738c7" />
+  <Project Path="Cpp09/Cpp09.vcxproj" Id="8565c5ca-1269-4806-89db-ec5d6de3debe" />
 </Solution>
