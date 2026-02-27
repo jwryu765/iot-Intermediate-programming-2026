@@ -1,0 +1,12 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Cpp01/Cpp01.vcxproj" />
+  <Project Path="Cpp02/Cpp02.vcxproj" />
+  <Project Path="Cpp03/Cpp03.vcxproj" />
+  <Project Path="Cpp04/Cpp04.vcxproj" />
+  <Project Path="Cpp05/Cpp05.vcxproj" />
+  <Project Path="Cpp06/Cpp06.vcxproj" />
+</Solution>
