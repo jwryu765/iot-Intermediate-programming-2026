@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Cpp01/Cpp01.vcxproj" Id="7d809508-9f0f-42e1-ae5e-164dc9cc90ee" />
+  <Project Path="Cpp02/Cpp02.vcxproj" Id="6a333f5c-682e-4fdf-a57f-9c24e58c8817" />
+  <Project Path="Cpp03/Cpp03.vcxproj" Id="c37ea6be-98ec-40ab-b1d4-fdd860880f4b" />
+  <Project Path="Cpp04/Cpp04.vcxproj" Id="36ecefbc-912b-4831-ad93-3bf0ed5d002a" />
+  <Project Path="Cpp05/Cpp05.vcxproj" Id="db909483-eb0b-4a38-a6b2-1c2c64ceae28" />
+  <Project Path="Cpp06/Cpp06.vcxproj" Id="fa36fe6e-0a58-4187-8e53-f650d8226ed6" />
+  <Project Path="Cpp07/Cpp07.vcxproj" Id="01d0a338-8ef7-4a52-ba39-ef8a8d40f152" />
+  <Project Path="Cpp08/Cpp08.vcxproj" Id="9bd55a4a-9316-4b99-b5b4-db5e3d62788d" />
+  <Project Path="Cpp09/Cpp09.vcxproj" Id="1ff78394-802b-41f1-9cd9-6a505a289c14" />
+  <Project Path="Cpp10/Cpp10.vcxproj" Id="326585ee-59b9-4a35-8144-080c9ab99c2e" />
+</Solution>
