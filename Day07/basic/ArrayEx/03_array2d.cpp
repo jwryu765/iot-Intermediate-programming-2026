@@ -33,8 +33,8 @@ int main() {
 		for (int j = 0; j < size(arr2[i]); j++) {
 			tmp[i][j] = arr2[i][j];
 			tmp[size(arr2)][j] += arr2[i][j];
-			tmp[j][size(arr2[i])] += arr2[i][j];
-			//tmp[size(arr2)][size(arr2[i])] += arr2[i][j];
+			tmp[i][size(arr2[i])] += arr2[i][j];
+			tmp[size(arr2)][size(arr2[i])] += arr2[i][j];
 			cout << setw(2) << arr2[i][j] << " ";
 		}
 		cout << endl;
