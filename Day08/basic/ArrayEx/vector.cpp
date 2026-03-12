@@ -1,0 +1,75 @@
+#include <iostream>
+#include <vector>
+#include <chrono>
+#include <random>
+using namespace std;
+
+int main() {
+    vector<int> v;
+    vector<int> v1 = { 1,2,3,4,5 };
+    vector<int> v3(5); // 0,0,0,0,0
+    vector<int> v4(5, 10); // 10,10,10,10,10
+
+    // 데이터 끝에서 추가
+    v.push_back(10);
+    v.push_back(20);
+    v.push_back(30);
+    v.pop_back(); // 데이터 끝에서 제거
+    v.erase(v.begin() + 1); // 데이터 중간에서 제거
+
+    // 일반 for문
+    for (int i = 0; i < v.size(); i++) {
+        cout << v[2] << endl;
+    }
+
+    // range 기반 for문
+    for (int x : v) {
+        cout << x << endl;
+    }
+
+    // v2 shuffle
+    // 난수 생성 엔진과 시드 설정(랜덤 시드)
+    unsigned seed = chrono::system_clock::now().time_since_epoch().count();
+    default_random_engine engine(seed);
+    shuffle(v1.begin(), v1.end(), engine);
+    for (int n : v1) {
+        cout << n << " ";
+    }
+    cout << endl;
+
+    // v2 sort
+    sort(v1.begin(), v1.end());
+    for (int n : v1) {
+        cout << n << " ";
+    }
+    cout << endl;
+
+    // v2 reverse
+    reverse(v1.begin(), v1.end());
+    for (int n : v1) {
+        cout << n << " ";
+    }
+    cout << endl;
+
+    vector<int> v5;
+    for (int i = 0; i < 10; i++) {
+        v5.push_back(rand() % 100 + 1); // 0~100 사이의 skstn 생성
+    }
+
+
+    // 2차원 벡터
+    vector<vector<int>> arr = {
+    {1,2,3},
+    {4,5,6},
+    {7,8,9}
+    };
+
+    for (int i = 0; i < arr.size(); i++) {
+        for (int j = 0; j < arr[i].size(); j++) {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
